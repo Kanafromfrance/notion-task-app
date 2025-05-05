@@ -112,7 +112,7 @@ export default function TaskApp() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Input
-            placeholder="What's your mission?"
+            placeholder="What&#39;s your mission?"
             value={taskName}
             onChange={(e) => setTaskName(e.target.value)}
             className="bg-gray-700 text-white placeholder-gray-400"
